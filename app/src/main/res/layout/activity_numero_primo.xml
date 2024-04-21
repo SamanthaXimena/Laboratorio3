@@ -32,6 +32,28 @@
             android:textSize="15sp" />
     </RelativeLayout>
 
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="317dp"
+        android:layout_height="130dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.829"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.237">
+
+        <TextView
+            android:id="@+id/jasonText"
+            android:layout_width="171dp"
+            android:layout_height="153dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.core.widget.NestedScrollView>
+
     <EditText
         android:id="@+id/editTextText2"
         android:layout_width="411dp"
@@ -49,7 +71,7 @@
     <EditText
         android:id="@+id/editTextText3"
         android:layout_width="412dp"
-        android:layout_height="54dp"
+        android:layout_height="20dp"
         android:ems="10"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -59,20 +81,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.094" />
 
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="182dp"
-        android:layout_height="76dp"
-        android:layout_marginEnd="32dp"
-        android:text="Su primo es:"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.192"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2" />
 
     <EditText
         android:id="@+id/editTextText"
@@ -91,15 +99,15 @@
     <EditText
         android:id="@+id/editTextText4"
         android:layout_width="411dp"
-        android:layout_height="50dp"
+        android:layout_height="20dp"
         android:ems="10"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.315" />
+        app:layout_constraintVertical_bias="0.419" />
 
     <TextView
         android:id="@+id/textView3"
